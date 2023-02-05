@@ -7,6 +7,10 @@ import React from "react";
 
 const ItemListContainer = ({ greeting }) => {
 
+  //Agregamos un anuncio CLASE 9 DE EVENTOS
+  //eventos nativos y sinteticos
+
+
   const [products, setProducts] = useState([])
 
   const {categoryId} = useParams()
