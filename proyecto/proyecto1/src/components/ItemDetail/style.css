@@ -1,0 +1,50 @@
+.cartContainerUltraGeneral {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.cartContainerGeneral {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+    width: 70vw;
+    height: 90vh;
+    justify-content: center;
+}
+
+.containerImg{
+    width: 50%;
+}
+
+.imgCard{
+    width: 50%;
+    padding: 0px;
+    
+}
+
+.precio{
+    color: darkgreen;
+    font-weight: 900;
+}
+
+.cardBody {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.goCart{
+    color: aliceblue;
+    text-decoration: none;
+}
